@@ -1,6 +1,16 @@
 # CPython
 D bindings for CPython, taken from https://github.com/ariovistus/pyd, all credit goes to the `pyd` authors.
 
-If you are using `dub`, please remember to select a configuration that matches your python version. Otherwise, please inspect `dub.json` to find the relevant `version` flags.
+Run `genDubConfig.py "<your project name>"` with your chosen python interpreter to print an example dub.json with the relevant library paths etc. set correctly.
 
-If you are not using `dub` on a posix system you will have to take care of linking to the relevant python libraries.
+I suggest doing this even if you don't intend to use `dub`, the output should contain the necessary information for you to use your own build tool (e.g. `version` flags)
+
+## Examples
+To run an example, do something like this:
+
+```sh
+cd examples/example
+python3 ../../genDubConfig example > dub.json
+dub build
+python3 test.py
+```
