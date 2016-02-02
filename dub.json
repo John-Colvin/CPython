@@ -1,8 +1,8 @@
 {
     "name": "cpython",
     "description": "static bindings to the CPython C API",
-    "authors": ["Ellery Newcomer"],
-    "licence": "Python",
+    "authors": ["Ellery Newcomer", "Kirk McDonald"],
+    "licence": "MIT",
     "sourcePaths": ["."],
     "importPaths": ["."],
     "targetType": "sourceLibrary",
