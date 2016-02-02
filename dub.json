@@ -17,8 +17,7 @@
                 "Python_2_5_Or_Later",
                 "Python_2_6_Or_Later",
                 "Python_2_7_Or_Later",
-            ],
-            "libs-posix": ["python2.7"]
+            ]
         },
         {
             "name": "python30",
@@ -28,8 +27,7 @@
                 "Python_2_6_Or_Later",
                 "Python_2_7_Or_Later",
                 "Python_3_0_Or_Later",
-            ],
-            "libs-posix": ["python3.0m"]
+            ]
         },
 {
             "name": "python31",
@@ -40,8 +38,7 @@
                 "Python_2_7_Or_Later",
                 "Python_3_0_Or_Later",
                 "Python_3_1_Or_Later",
-            ],
-            "libs-posix": ["python3.1m"]
+            ]
         },
         {
             "name": "python32",
@@ -53,8 +50,7 @@
                 "Python_3_0_Or_Later",
                 "Python_3_1_Or_Later",
                 "Python_3_2_Or_Later",
-            ],
-            "libs-posix": ["python3.2m"]
+            ]
         },
         {
             "name": "python33",
@@ -67,8 +63,7 @@
                 "Python_3_1_Or_Later",
                 "Python_3_2_Or_Later",
                 "Python_3_3_Or_Later",
-            ],
-            "libs-posix": ["python3.3m"]
+            ]
         },
         {
             "name": "python34",
@@ -82,8 +77,7 @@
                 "Python_3_2_Or_Later",
                 "Python_3_3_Or_Later",
                 "Python_3_4_Or_Later",
-            ],
-            "libs-posix": ["python3.4m"]
+            ]
         },
         {
             "name": "python35",
@@ -98,8 +92,7 @@
                 "Python_3_3_Or_Later",
                 "Python_3_4_Or_Later",
                 "Python_3_5_Or_Later"
-            ],
-            "libs-posix": ["python3.5m"]
+            ]
         }
     ]
 }
